@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "coterieai-project-tfstate"
     prefix = "env/dev"
   }
 }
